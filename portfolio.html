@@ -17,36 +17,36 @@
     </head>
     <body>
         <!-- HEADER SECTION -->
-        <div class="header-container">
-            <header class="page-header">
-                <a class="header-logo-1" href="#"
-                    ><span class="logo-2">Web</span>Studio</a
+        <div class="header__container">
+            <header class="header">
+                <a class="header__logo-1" href="#"
+                    ><span class="header__logo-2">Web</span>Studio</a
                 >
                 <!-- NAVIGATION SECTION -->
-                <nav class="header-navigation">
+                <nav class="header__navigation">
                     <ul class="navigation-list unstyled-list">
-                        <li class="nav-link">
-                            <a class="nav-list-item" href="index.html"
+                        <li class="navigation-list__item">
+                            <a class="navigation-list_link" href="index.html"
                                 >Studio</a
                             >
                         </li>
-                        <li class="nav-link">
-                            <a class="nav-list-item active" href="#"
+                        <li class="navigation-list__item">
+                            <a class="navigation-list_link active" href="#"
                                 >Portfolio</a
                             >
                         </li>
-                        <li class="nav-link">
-                            <a class="nav-list-item" href="contacts.html"
+                        <li class="navigation-list__item">
+                            <a class="navigation-list_link" href="contacts.html"
                                 >Contacts</a
                             >
                         </li>
                     </ul>
                 </nav>
                 <!-- CONTACTS SECTION -->
-                <ul class="right-navigation-list unstyled-list">
-                    <li class="mail-header">
+                <ul class="right-navigation unstyled-list">
+                    <li class="mail--header">
                         <a
-                            class="contact-list-item"
+                            class="right-navigation__item"
                             href="mailto:info@devstudio.com"
                         >
                             <svg class="icon-hover" width="16" height="12">
@@ -59,7 +59,7 @@
                     </li>
                     <li>
                         <a
-                            class="phone-header contact-list-item"
+                            class="phone--header right-navigation__item"
                             href="tel:+12127724150"
                         >
                             <svg class="icon-hover" width="16" height="12">
@@ -80,23 +80,27 @@
                 <section>
                     <ul class="filter unstyled-list">
                         <li>
-                            <button class="p-button" type="button">All</button>
+                            <button class="filter__p-button" type="button">
+                                All
+                            </button>
                         </li>
                         <li>
-                            <button class="p-button" type="button">
+                            <button class="filter__p-button" type="button">
                                 Web-sites
                             </button>
                         </li>
                         <li>
-                            <button class="p-button" type="button">Apps</button>
+                            <button class="filter__p-button" type="button">
+                                Apps
+                            </button>
                         </li>
                         <li>
-                            <button class="p-button" type="button">
+                            <button class="filter__p-button" type="button">
                                 Design
                             </button>
                         </li>
                         <li>
-                            <button class="p-button" type="button">
+                            <button class="filter__p-button" type="button">
                                 Marketing
                             </button>
                         </li>
@@ -105,11 +109,11 @@
                 <!-- PORTFOLIO ELEMENTS SECTION -->
                 <section class="p-container">
                     <ul class="card-set unstyled-list">
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
-                                        <p class="overlay-text">
+                                        <p class="overlay__text">
                                             Technoduck is a state-of-the-art
                                             coronavirus distribution platform.
                                             Companies use this platform for
@@ -124,15 +128,15 @@
                                         alt="Laptop"
                                     />
                                 </div>
-                                <div class="card-bottom">
-                                    <h3 class="p-name">Technoduck</h3>
-                                    <p class="p-type">Web-site</p>
+                                <div>
+                                    <h3 class="card-set__name">Technoduck</h3>
+                                    <p class="card-set__type">Web-site</p>
                                 </div>
                             </div>
                         </li>
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -143,15 +147,15 @@
                                         alt="Dunking"
                                     />
                                 </div>
-                                <h3 class="p-name">
+                                <h3 class="card-set__name">
                                     Poster New Orlean vs Golden Star
                                 </h3>
-                                <p class="p-type">Design</p>
+                                <p class="card-set__type">Design</p>
                             </div>
                         </li>
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -162,13 +166,15 @@
                                         alt="The Seafood Restaurant"
                                     />
                                 </div>
-                                <h3 class="p-name">Seafood Restaurant</h3>
-                                <p class="p-type">Apps</p>
+                                <h3 class="card-set__name">
+                                    Seafood Restaurant
+                                </h3>
+                                <p class="card-set__type">Apps</p>
                             </div>
                         </li>
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -179,13 +185,13 @@
                                         alt="Headset"
                                     />
                                 </div>
-                                <h3 class="p-name">Project Prime</h3>
-                                <p class="p-type">Marketing</p>
+                                <h3 class="card-set__name">Project Prime</h3>
+                                <p class="card-set__type">Marketing</p>
                             </div>
                         </li>
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -196,14 +202,14 @@
                                         alt="Two Boxes"
                                     />
                                 </div>
-                                <h3 class="p-name">Project Boxes</h3>
-                                <p class="p-type">Apps</p>
+                                <h3 class="card-set__name">Project Boxes</h3>
+                                <p class="card-set__type">Apps</p>
                             </div>
                         </li>
 
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -214,16 +220,16 @@
                                         alt="Apple Monitor"
                                     />
                                 </div>
-                                <h3 class="p-name">
+                                <h3 class="card-set__name">
                                     Inspiration has no Borders
                                 </h3>
-                                <p class="p-type">Web-site</p>
+                                <p class="card-set__type">Web-site</p>
                             </div>
                         </li>
 
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -234,13 +240,13 @@
                                         alt="Open book"
                                     />
                                 </div>
-                                <h3 class="p-name">Limited Edition</h3>
-                                <p class="p-type">Design</p>
+                                <h3 class="card-set__name">Limited Edition</h3>
+                                <p class="card-set__type">Design</p>
                             </div>
                         </li>
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -251,13 +257,13 @@
                                         alt="Label Tag"
                                     />
                                 </div>
-                                <h3 class="p-name">Project LAB</h3>
-                                <p class="p-type">Marketing</p>
+                                <h3 class="card-set__name">Project LAB</h3>
+                                <p class="card-set__type">Marketing</p>
                             </div>
                         </li>
-                        <li class="p-item">
+                        <li class="card-set__item">
                             <div class="card-container">
-                                <div class="card-top">
+                                <div class="card-set__top">
                                     <div class="overlay">
                                         <p></p>
                                     </div>
@@ -268,8 +274,8 @@
                                         alt="Working on Laptop"
                                     />
                                 </div>
-                                <h3 class="p-name">Growing Business</h3>
-                                <p class="p-type">Apps</p>
+                                <h3 class="card-set__name">Growing Business</h3>
+                                <p class="card-set__type">Apps</p>
                             </div>
                         </li>
                     </ul>
@@ -279,43 +285,47 @@
         <!-- FOOTER  -->
         <footer class="footer-section">
             <div class="container">
-                <div class="footer-titles">
-                    <a class="footer-logo-1 footer-style" href="#"
-                        ><span class="logo-2">Web</span>Studio</a
+                <div class="footer_section__titles">
+                    <a
+                        class="footer-section__logo-1 footer-section--styles"
+                        href="#"
+                        ><span class="header__logo-2">Web</span>Studio</a
                     >
-                    <h3 class="icon-title-footer">FIND US ON</h3>
-                    <h3 class="icon-title-news">SUBSCRIBE TO THE NEWSLETTER</h3>
+                    <h3 class="footer-section__svg-title">FIND US ON</h3>
+                    <h3 class="footer-section__news">
+                        SUBSCRIBE TO THE NEWSLETTER
+                    </h3>
                 </div>
-                <address class="footer-container">
-                    <ul class="footer-list unstyled-list">
-                        <li class="footer-list-item">
-                            <a class="address footer-style" href=""
+                <address class="footer__container">
+                    <ul class="footer__list unstyled-list">
+                        <li class="footer__list-item">
+                            <a class="address footer-section--styles" href=""
                                 >695 Park Ave, NY 10065, USA</a
                             >
                         </li>
-                        <li class="footer-list-item">
+                        <li class="footer__list-item">
                             <a
-                                class="email-footer footer-style"
+                                class="email-footer footer-section--styles"
                                 href="mailto:info@devstudio.com"
                                 >info@devstudio.com</a
                             >
                         </li>
-                        <li class="footer-list-item footer-phone">
+                        <li class="footer__list-item footer-phone">
                             <a
-                                class="phone-nr-footer footer-style"
+                                class="phone-nr-footer footer-section--styles"
                                 href="tel:+12127724150"
                                 >+1 212-772-4150</a
                             >
                         </li>
                     </ul>
                     <div class="">
-                        <ul class="footer-icon-container unstyled-list">
+                        <ul class="footer__icon-container unstyled-list">
                             <li
-                                class="icon-list-item-footer footer-icon-background"
+                                class="footer__icon-list footer__icon-background"
                             >
                                 <a href="#">
                                     <svg
-                                        class="footer-icon"
+                                        class="footer__svg"
                                         width="20"
                                         height="20"
                                     >
@@ -326,11 +336,11 @@
                                 </a>
                             </li>
                             <li
-                                class="icon-list-item-footer footer-icon-background"
+                                class="footer__icon-list footer__icon-background"
                             >
                                 <a href="#">
                                     <svg
-                                        class="footer-icon"
+                                        class="footer__svg"
                                         width="20"
                                         height="20"
                                     >
@@ -341,11 +351,11 @@
                                 </a>
                             </li>
                             <li
-                                class="icon-list-item-footer footer-icon-background"
+                                class="footer__icon-list footer__icon-background"
                             >
                                 <a href="#">
                                     <svg
-                                        class="footer-icon"
+                                        class="footer__svg"
                                         width="20"
                                         height="20"
                                     >
@@ -356,11 +366,11 @@
                                 </a>
                             </li>
                             <li
-                                class="icon-list-item-footer footer-icon-background"
+                                class="footer__icon-list footer__icon-background"
                             >
                                 <a href="#">
                                     <svg
-                                        class="footer-icon"
+                                        class="footer__svg"
                                         width="20"
                                         height="20"
                                     >
@@ -373,20 +383,23 @@
                         </ul>
                     </div>
                     <div class="">
-                        <ul class="unstyled-list footer-newsletter-container">
+                        <ul class="unstyled-list footer__news-container">
                             <li>
                                 <input
                                     type="email"
                                     name="email"
                                     placeholder="E-mail"
-                                    class="e-mail-input"
+                                    class="footer__e-mail-input"
                                 />
                             </li>
                             <li>
-                                <button class="subscribe-button" type="submit">
+                                <button
+                                    class="footer__subscribe-button"
+                                    type="submit"
+                                >
                                     <h3>Subscribe</h3>
                                     <svg
-                                        class="send-icon"
+                                        class="footer__send-icon"
                                         width="24"
                                         height="24"
                                     >
