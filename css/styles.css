@@ -23,7 +23,7 @@ body {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    color: #212121;
+    color: var(--brand-color-dark);
 }
 
 .unstyled-list {
@@ -40,6 +40,7 @@ body {
 
 .header {
     display: flex;
+    background-color: white;
 }
 
 .navigation-list,
@@ -51,15 +52,8 @@ body {
 .right-navigation {
     display: flex;
     align-items: center;
-}
-
-.right-navigation {
     margin-left: 330px;
     gap: 40px;
-}
-
-.header {
-    background-color: white;
 }
 
 .header__logo-1 {
@@ -90,15 +84,11 @@ body {
     width: max-content;
 }
 
-.icon-header {
-    display: flex;
-}
-
 .navigation-list {
     gap: 50px;
 }
 
-.navigation-list_link {
+.navigation-list__link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -126,12 +116,12 @@ body {
     color: var(--brand-color);
 }
 
-.navigation-list_link:focus::after {
+.navigation-list__link:focus::after {
     visibility: visible;
 }
 
-.navigation-list_link:hover,
-.navigation-list_link:focus {
+.navigation-list__link:hover,
+.navigation-list__link:focus {
     color: var(--brand-color);
 }
 
@@ -642,6 +632,7 @@ body {
 .footer__icon-list:focus {
     background-color: var(--brand-color);
 }
+
 .footer__svg {
     fill: #ffffff;
 }
@@ -736,7 +727,7 @@ body {
     margin-left: 248px;
 }
 
-.footer_section__titles {
+.footer-section__titles {
     display: flex;
 }
 
